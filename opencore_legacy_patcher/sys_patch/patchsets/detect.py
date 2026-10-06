@@ -89,7 +89,7 @@ class HardwarePatchsetValidation(StrEnum):
     NVDA_DRV_MISSING              = "Validation: nvda_drv(_vrl) variable missing"
     PATCHING_NOT_POSSIBLE         = "Validation: Patching not possible"
     UNPATCHING_NOT_POSSIBLE       = "Validation: Unpatching not possible"
-    REPATCHING_NOT_SUPPORTED      = "Validation: Revert first to update or reinstall OCLP patches"
+    REPATCHING_NOT_SUPPORTED      = "Validation: Patches already installed, nothing to do. Revert first only if you want to reinstall or update them."
 
 
 class HardwarePatchsetDetection:
